@@ -1,0 +1,8 @@
+# IDE project directory
+.idea
+
+# Dependency components
+node_modules
+
+# Build module directory
+build
