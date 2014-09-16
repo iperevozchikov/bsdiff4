@@ -1,17 +1,17 @@
 {
   "name": "bsdiff4",
   "description": "BSDiff/BSPatch port for node.js",
-  "version": "0.0.2",
-  "homepage": "https://github.com/bacchusrx/bsdiff4",
+  "version": "0.0.3",
+  "homepage": "https://github.com/iperevozchikov/bsdiff4",
   "contributors": [
-    { "name": "Erik Rothwell", "email": "bacchusrx@eightstar.ca" }
+    { "name": "Igor Perevozchikov", "email": "iperevozchikov@gmail.com" }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bacchusrx/bsdiff4.git"
+    "url": "git://github.com/iperevozchikov/bsdiff4.git"
   },
   "engines": {
-    "node": "0.6.x"
+    "node": ">=0.6.12"
   },
   "main": "./lib/bsdiff4",
   "devDependencies": {
@@ -22,7 +22,7 @@
   },
   "license": {
     "type": "BSD",
-    "url": "https://github.com/bacchusrx/bsdiff4/raw/master/LICENSE"
+    "url": "https://github.com/iperevozchikov/bsdiff4/raw/master/LICENSE"
   },
   "keywords": [
     "bsdiff",
