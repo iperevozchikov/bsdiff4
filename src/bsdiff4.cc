@@ -339,7 +339,7 @@ namespace BSDiff
     delete data;
   }
 
-  static void AfterDiff(uv_work_t *req)
+  static void AfterDiff(uv_work_t *req, int status)
   {
     HandleScope scope;
 
@@ -494,7 +494,7 @@ namespace BSDiff
     baton->newData = newData;
   }
 
-  static void AfterPatch(uv_work_t *req)
+  static void AfterPatch(uv_work_t *req, int status)
   {
     HandleScope scope;
 
